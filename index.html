@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>山本直輝のプロフィール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="inner site-header__flex">
+      <h1 class="site-header__logo orbitron-normal"><a href="./index.html">Naoki Yamamoto</a></h1>
+      <nav class="site-header__nav">
+        <ul>
+          <li>
+            <a class="orbitron-normal" href="./index.html">TOP</a>
+          </li>
+          <li>
+            <a class="orbitron-normal" href="./works.html">WORKS</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <!-- メインビジュアル -->
+    <div class="sect-mv">
+      <img src="./mv_illust.svg" alt="" class="sect-mv__illust">
+      <p>Think<br>beyond<br>the world</p>
+    </div>
+    <nav class="sect-mv-below inner">
+      <ul>
+        <li>
+          <a class="orbitron-normal" href="./index.html">TOP</a>
+        </li>
+        <li>
+          <a class="orbitron-normal" href="./works.html">WORKS</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- プロフィールセクション -->
+    <section class="sect-profile">
+      <h2 class="sect-title">PROFILE</h2>
+
+      <div class="inner">
+        <!-- 横並びにしたいのでdivで囲っておく -->
+        <div class="sect-profile__flex">
+
+          <div class="sect-profile__flex-left">
+            <img src="./photo.jpg" alt="">
+            <h3 class="sect-profile__name">山本直輝</h3>
+            <p class="sect-profile__title">講師 / メンター / 顧問</p>
+          </div>
+
+          <div class="sect-profile__flex-right">
+            <p>デジタルハリウッド広島を卒業後、スタートアップのWeb制作会社で働く。その後、フロントエンドエンジニアとして独立。Web制作、ディレクション、教育、顧問など幅広く手掛ける。 Web制作分野では動きのあるWebサイトとアクセシビリティ対応を得意とする。</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="sect-profile__btn-box">
+        <a href="./works.html" class="button"><span>実績一覧をみる</span></a>
+      </div>
+    </section>
+
+    <!-- キャッチコピー -->
+    <div class="catch-copy">
+      <p>考えることをやめない、<br class="sp">あたりまえの先へ</p>
+    </div>
+
+    <!-- スキルセクション -->
+    <section class="sect-skill">
+      <h2 class="sect-title">SKILL</h2>
+      <div class="inner">
+        <ul class="sect-skill__grid">
+          <li>
+            <div class="card">
+              <h3 class="card__title">HTML</h3>
+              <p class="card__desc">私はHTMLを使って、文書構造を表現することができます。</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3 class="card__title">CSS</h3>
+              <p class="card__desc">私はCSSを使って、デザインを表現することができます。</p>
+            </div>
+          </li>
+          <li>
+            <div class="card">
+              <h3 class="card__title">JavaScript</h3>
+              <p class="card__desc">私はJavaScriptを使って、ブラウザに命令を出すことができます。</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <small>©︎ Naoki Yamamoto</small>
+  </footer>
+</body>
+
+</html>
